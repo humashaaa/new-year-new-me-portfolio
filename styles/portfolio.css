@@ -2,8 +2,8 @@
 .header{
     background-image: url('../images/banner/banner2.png');
     background-repeat: no-repeat;
-    width: 1600px;
-    height: 809px;
+    /* width: 1600px;
+    height: 809px; */
     flex-shrink: 0;
     text-align: right;
     padding: 0;
@@ -71,5 +71,45 @@
 .section{
     display: flex;
     gap: 130px;
-  margin: 140px;
+  margin: 140px 630px;
+ 
+}
+/* section 02 styles */
+.plans{
+
+}
+.plans-header{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+    /* margin-bottom: 50px; */
+
+}
+.skill-container{
+    justify-content: space-between;
+    display: flex;
+    gap: 100px;
+    margin-top: 0;
+    padding: 100px 360px;
+}
+.skills{
+    justify-content: space-between;
+}
+.skill-icon{
+    gap:218px ;
+    width: 92.958px;
+height: 92.958px;
+}
+.skill-header{ 
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+
+}
+.skill-description{
+    font-size: 25px;
+    font-weight: 500;
+    color: #444343;
+
 }
